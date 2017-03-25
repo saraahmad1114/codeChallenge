@@ -10,8 +10,8 @@ import Foundation
 
 class PeopleAPIClient{
 
-    class func getPeopleInformation (completion:@escaping([String: Any])->()){
-        var jsonBookResponse : [String: Any] = [:]
+    class func getPeopleInformation (completion:@escaping(Array<Any>)->()){
+        var jsonBookResponse : Array<Any> = []
         
         let getBookUrl = "http://peoplechallenge.herokuapp.com/people"
         
@@ -30,11 +30,7 @@ class PeopleAPIClient{
             
             if httpResponse.statusCode != 200 {
                 
-                let jsonResponseArray = try? JSONSerialization.jsonObject(with: unwrappedJsonData, options: []) as! [String: Any]
-                
-                print("************************")
-                print(jsonResponseArray)
-                print("************************")
+                let jsonResponseArray = try? JSONSerialization.jsonObject(with: unwrappedJsonData, options: []) as! Array<Any>
                 
                 guard let unwrappedJsonResponse = jsonResponseArray else{print("jsonResponse did not unwarp"); return}
                 

@@ -11,7 +11,6 @@
 		1BEF453A1E7E0EE100ED4D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF45391E7E0EE100ED4D62 /* AppDelegate.swift */; };
 		1BEF453C1E7E0EE100ED4D62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF453B1E7E0EE100ED4D62 /* ViewController.swift */; };
 		1BEF453F1E7E0EE100ED4D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF453D1E7E0EE100ED4D62 /* Main.storyboard */; };
-		1BEF45421E7E0EE100ED4D62 /* codeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF45401E7E0EE100ED4D62 /* codeChallenge.xcdatamodeld */; };
 		1BEF45441E7E0EE100ED4D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF45431E7E0EE100ED4D62 /* Assets.xcassets */; };
 		1BEF45471E7E0EE100ED4D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEF45451E7E0EE100ED4D62 /* LaunchScreen.storyboard */; };
 		1BEF45521E7E0EE100ED4D62 /* codeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF45511E7E0EE100ED4D62 /* codeChallengeTests.swift */; };
@@ -46,7 +45,6 @@
 		1BEF45391E7E0EE100ED4D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEF453B1E7E0EE100ED4D62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BEF453E1E7E0EE100ED4D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BEF45411E7E0EE100ED4D62 /* codeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = codeChallenge.xcdatamodel; sourceTree = "<group>"; };
 		1BEF45431E7E0EE100ED4D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEF45461E7E0EE100ED4D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEF45481E7E0EE100ED4D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,12 +121,11 @@
 				1BEF45391E7E0EE100ED4D62 /* AppDelegate.swift */,
 				1BEF453B1E7E0EE100ED4D62 /* ViewController.swift */,
 				1BEF45A91E80239D00ED4D62 /* PeopleTableViewController.swift */,
+				1BEF45A71E7F3D4A00ED4D62 /* PeopleAPIClient.swift */,
 				1BEF453D1E7E0EE100ED4D62 /* Main.storyboard */,
 				1BEF45431E7E0EE100ED4D62 /* Assets.xcassets */,
 				1BEF45451E7E0EE100ED4D62 /* LaunchScreen.storyboard */,
 				1BEF45481E7E0EE100ED4D62 /* Info.plist */,
-				1BEF45A71E7F3D4A00ED4D62 /* PeopleAPIClient.swift */,
-				1BEF45401E7E0EE100ED4D62 /* codeChallenge.xcdatamodeld */,
 			);
 			path = codeChallenge;
 			sourceTree = "<group>";
@@ -443,7 +440,6 @@
 				1BEF453C1E7E0EE100ED4D62 /* ViewController.swift in Sources */,
 				1BEF453A1E7E0EE100ED4D62 /* AppDelegate.swift in Sources */,
 				1BEF45A81E7F3D4A00ED4D62 /* PeopleAPIClient.swift in Sources */,
-				1BEF45421E7E0EE100ED4D62 /* codeChallenge.xcdatamodeld in Sources */,
 				1BEF45AA1E80239D00ED4D62 /* PeopleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,19 +712,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1BEF45401E7E0EE100ED4D62 /* codeChallenge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1BEF45411E7E0EE100ED4D62 /* codeChallenge.xcdatamodel */,
-			);
-			currentVersion = 1BEF45411E7E0EE100ED4D62 /* codeChallenge.xcdatamodel */;
-			path = codeChallenge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1BEF452E1E7E0EE100ED4D62 /* Project object */;
 }
